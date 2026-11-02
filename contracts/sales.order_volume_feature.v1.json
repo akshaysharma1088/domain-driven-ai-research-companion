@@ -1,0 +1,33 @@
+{
+  "product_id": "sales.order_volume_feature",
+  "domain": "sales",
+  "owner": "Sales ML Features Team (synthetic)",
+  "version": "1.0.0",
+  "description": "Completed order count in the bounded fixture window (not a general-purpose 30 day aggregation)",
+  "fields": {
+    "customer_id": {
+      "type": "string",
+      "required": true
+    },
+    "completed_order_count_30d": {
+      "type": "integer",
+      "required": true
+    }
+  },
+  "quality": {
+    "min_rows": 1,
+    "unique_key": [
+      "customer_id"
+    ],
+    "minimums": {
+      "completed_order_count_30d": 0
+    }
+  },
+  "allowed_consumers": [
+    "sales"
+  ],
+  "dependencies": [
+    "customer.customer_profile",
+    "sales.order_lifecycle"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "product_id": "customer.customer_profile",
+  "domain": "customer",
+  "owner": "Customer Domain Team (synthetic)",
+  "version": "1.0.0",
+  "description": "Customer profile and segments",
+  "fields": {
+    "customer_id": {
+      "type": "string",
+      "required": true
+    },
+    "segment": {
+      "type": "string",
+      "required": true
+    },
+    "updated_at": {
+      "type": "timestamp",
+      "required": true
+    }
+  },
+  "quality": {
+    "min_rows": 1,
+    "unique_key": [
+      "customer_id"
+    ],
+    "freshness_field": "updated_at",
+    "max_age_days": 14
+  },
+  "allowed_consumers": [
+    "analytics",
+    "sales"
+  ],
+  "dependencies": []
+}

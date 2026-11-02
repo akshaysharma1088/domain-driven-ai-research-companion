@@ -1,0 +1,17 @@
+[
+  {
+    "customer_id": "C101",
+    "segment": "retail",
+    "updated_at": "2026-10-31T08:00:00+00:00"
+  },
+  {
+    "customer_id": "C102",
+    "segment": "small_business",
+    "updated_at": "2026-10-31T08:00:00+00:00"
+  },
+  {
+    "customer_id": "C103",
+    "segment": "retail",
+    "updated_at": "2026-10-31T08:00:00+00:00"
+  }
+]
