@@ -1,0 +1,30 @@
+[
+  {
+    "order_id": "O001",
+    "customer_id": "C101",
+    "amount": 80.5,
+    "status": "completed",
+    "event_time": "2026-10-29T18:00:00+00:00"
+  },
+  {
+    "order_id": "O002",
+    "customer_id": "C101",
+    "amount": 20,
+    "status": "pending",
+    "event_time": "2026-10-30T10:00:00+00:00"
+  },
+  {
+    "order_id": "O003",
+    "customer_id": "C102",
+    "amount": 125,
+    "status": "completed",
+    "event_time": "2026-10-30T11:00:00+00:00"
+  },
+  {
+    "order_id": "O004",
+    "customer_id": "C101",
+    "amount": 30,
+    "status": "completed",
+    "event_time": "2026-10-31T11:00:00+00:00"
+  }
+]
