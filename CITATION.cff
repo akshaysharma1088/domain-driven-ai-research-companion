@@ -1,18 +1,11 @@
 cff-version: 1.2.0
-message: "Please cite the peer-reviewed research article when relevant to your use."
+message: "Cite this Zenodo software archive when using the code; cite the IET Software journal article for the research concepts."
 title: "Domain-Driven Data and AI Platforms — Research Companion"
 type: software
 authors:
   - family-names: Sharma
     given-names: Akshay
-preferred-citation:
-  type: article
-  authors:
-    - family-names: Sharma
-      given-names: Akshay
-  title: "Domain-Driven Data and AI Platforms: Governing Analytics and Machine Learning Pipelines at Scale"
-  journal: "IET Software"
-  year: 2026
-  volume: "2026"
-  issue: "1"
-  doi: "10.1049/sfw2/4364820"
+version: "0.1.0"
+doi: "10.5281/zenodo.23875963"
+repository-code: "https://github.com/akshaysharma1088/domain-driven-ai-research-companion"
+url: "https://github.com/akshaysharma1088/domain-driven-ai-research-companion/releases/tag/v0.1.0"
