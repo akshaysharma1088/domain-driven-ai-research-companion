@@ -2,6 +2,13 @@
 
 A **small, executable educational companion** to:
 
+[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23875963.svg)](https://doi.org/10.5281/zenodo.23875963)
+
+**Software archive (v0.1.0):** https://doi.org/10.5281/zenodo.23875963
+**GitHub release:** https://github.com/akshaysharma1088/domain-driven-ai-research-companion/releases/tag/v0.1.0
+
+**Related peer-reviewed article:**
+
 > Sharma, A. (2026). *Domain-Driven Data and AI Platforms: Governing Analytics and Machine Learning Pipelines at Scale.* **IET Software**, 2026(1), 4364820. https://doi.org/10.1049/sfw2/4364820
 
 The example provides **four synthetic domain-owned data products**, contract checks, a publication gate, permission-list simulation, and product-level lineage/impact analysis.
@@ -55,12 +62,17 @@ flowchart TD
 
 The domain allowlist is *not* real authentication or authorization. This demonstration omits distributed transactions, full schema registry/version migrations, real streaming infrastructure, data classification, managed feature stores, real ML training, and an experimental comparison with alternative architectures. The 30-day feature name describes the bounded input fixture, not a general time-window engine.
 
-## Cite the research
+## How to cite
 
-If the concepts inform your work, please consult and cite the peer-reviewed article **when relevant**: https://doi.org/10.1049/sfw2/4364820. GitHub citation metadata is available in [CITATION.cff](CITATION.cff).
+Please cite whichever contribution you actually use:
+
+- **Research and conceptual framework:** Sharma, A. (2026). *Domain-Driven Data and AI Platforms: Governing Analytics and Machine Learning Pipelines at Scale.* *IET Software*. https://doi.org/10.1049/sfw2/4364820
+- **Source code and synthetic reference implementation:** Sharma, A. *Domain-Driven Data and AI Platforms — Research Companion* (v0.1.0), software archive. Zenodo. https://doi.org/10.5281/zenodo.23875963
+
+The GitHub `CITATION.cff` file now describes the software release. Cite the paper separately if its scientific contribution informs your work. Citations should reflect genuine scholarly use; merely referencing an archive is not evidence of independent adoption.
 
 ## Next steps
 
-Review the demo and tests; share reproducible bug reports through GitHub Issues. A future tagged release may be archived with Zenodo once its DOI exists.
+Review the demo and tests; share reproducible bug reports through GitHub Issues. The initial GitHub release is archived at Zenodo. For future changes, publish a new GitHub release and confirm that Zenodo has archived the corresponding version.
 
 Code licensed under MIT; publisher's article has its own terms. No affiliation or endorsement by the publisher or employer is implied.
