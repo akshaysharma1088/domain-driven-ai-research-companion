@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the peer-reviewed research article when relevant to your use."
+title: "Domain-Driven Data and AI Platforms — Research Companion"
+type: software
+authors:
+  - family-names: Sharma
+    given-names: Akshay
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Sharma
+      given-names: Akshay
+  title: "Domain-Driven Data and AI Platforms: Governing Analytics and Machine Learning Pipelines at Scale"
+  journal: "IET Software"
+  year: 2026
+  volume: "2026"
+  issue: "1"
+  doi: "10.1049/sfw2/4364820"
