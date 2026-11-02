@@ -71,6 +71,10 @@ Please cite whichever contribution you actually use:
 
 The GitHub `CITATION.cff` file now describes the software release. Cite the paper separately if its scientific contribution informs your work. Citations should reflect genuine scholarly use; merely referencing an archive is not evidence of independent adoption.
 
+## Technical walkthrough
+
+Read the companion article: [Beyond the Data Mesh Diagram: Making Domain Data Products Governable with Contracts and Lineage](docs/article-01-beyond-data-mesh-governed-data-products.md). It explains the synthetic architecture, validation and publication boundaries, lineage impact, reproducibility steps, and a proposed roadmap for controlled benchmarking. It is a technical tutorial, not an additional peer-reviewed research paper.
+
 ## Next steps
 
 Review the demo and tests; share reproducible bug reports through GitHub Issues. The initial GitHub release is archived at Zenodo. For future changes, publish a new GitHub release and confirm that Zenodo has archived the corresponding version.
