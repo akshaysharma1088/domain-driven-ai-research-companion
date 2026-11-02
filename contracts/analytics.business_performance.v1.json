@@ -1,0 +1,42 @@
+{
+  "product_id": "analytics.business_performance",
+  "domain": "analytics",
+  "owner": "Analytics Domain Team (synthetic)",
+  "version": "1.0.0",
+  "description": "Completed orders and revenue by customer",
+  "fields": {
+    "customer_id": {
+      "type": "string",
+      "required": true
+    },
+    "segment": {
+      "type": "string",
+      "required": true
+    },
+    "completed_orders": {
+      "type": "integer",
+      "required": true
+    },
+    "completed_revenue": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "quality": {
+    "min_rows": 1,
+    "unique_key": [
+      "customer_id"
+    ],
+    "minimums": {
+      "completed_orders": 0,
+      "completed_revenue": 0
+    }
+  },
+  "allowed_consumers": [
+    "analytics"
+  ],
+  "dependencies": [
+    "customer.customer_profile",
+    "sales.order_lifecycle"
+  ]
+}
