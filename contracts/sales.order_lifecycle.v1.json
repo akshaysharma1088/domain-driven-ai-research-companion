@@ -1,0 +1,45 @@
+{
+  "product_id": "sales.order_lifecycle",
+  "domain": "sales",
+  "owner": "Sales Domain Team (synthetic)",
+  "version": "1.0.0",
+  "description": "Order lifecycle",
+  "fields": {
+    "order_id": {
+      "type": "string",
+      "required": true
+    },
+    "customer_id": {
+      "type": "string",
+      "required": true
+    },
+    "amount": {
+      "type": "number",
+      "required": true
+    },
+    "status": {
+      "type": "string",
+      "required": true
+    },
+    "event_time": {
+      "type": "timestamp",
+      "required": true
+    }
+  },
+  "quality": {
+    "min_rows": 1,
+    "unique_key": [
+      "order_id"
+    ],
+    "freshness_field": "event_time",
+    "max_age_days": 14,
+    "minimums": {
+      "amount": 0
+    }
+  },
+  "allowed_consumers": [
+    "analytics",
+    "sales"
+  ],
+  "dependencies": []
+}
